@@ -13,7 +13,22 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Manrope", "sans-serif"],
+        mono: ["DM Mono", "monospace"],
+      },
       colors: {
+        nexus: {
+          navy: "#172b49",
+          teal: "#35bfa9",
+          ink: "#1e293b",
+          surface: "#f6f8fb",
+        },
+        risk: {
+          low: "#35b891",
+          medium: "#f3b64d",
+          high: "#eb6872",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
